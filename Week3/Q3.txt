@@ -1,0 +1,26 @@
+-How to convert fraction to decimal
+
+-when printing out ftn with “puts” or “print” does ftn go inside “#{}” or “”
+
+-My baditude program
+
+-make hash with keys and values with pattern like alphabet (don’t want to manually type everything out)
+
+
+
+
+-“AND” want faster things to go first
+-switch statement (when, case)
+-Class (like Horse)
+	Data to track
+	Functions
+   ~~Infinite amount of different horses (same data)
+	-@@ applies to all objects in class
+	-variable with @ sign can only be changed within class 
+
+-10x10 game thingy
+	Class board
+		def initialize
+			
+		def render
+		def 

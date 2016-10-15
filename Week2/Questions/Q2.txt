@@ -1,0 +1,21 @@
+-Diff of 
+big = dice1.permutation(2).to_a
+big << dice1.permutation(2).to_a
+
+
+
+-diff of () {} []
+	() math operation
+	{} |x| conditions or other
+	[] hash and array
+
+-diff of ‘’ and “”
+	‘’ quicker
+	“” may have ruby ftn; flexible
+
+-? for evaluating T/F
+ ! for permanently altering function
+
+-lambda ftn = block
+
+-check ruby version: ruby 2.0.0

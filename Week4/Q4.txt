@@ -1,0 +1,15 @@
+-new grid program: doesn’t exit
+
+-make hash with keys and values with pattern like alphabet (don’t want to manually type everything out)
+
+
+tictactoe
+-call multiple keys in hash (possible victory)
+-variable name with ‘?’
+
+
+
+Inheritance- classes within class (chicken, cow, horse, lion < animal)
+mixins- ftn only applied to certain sub class (ruminant- only cow and horse)
+
+is a ftn

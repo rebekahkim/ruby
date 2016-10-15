@@ -1,0 +1,48 @@
+Rebekah:~ rebekahkim$ irb
+irb(main):001:0> s = []
+=> []
+irb(main):002:0> s = [1,5,gt,7,9]
+NameError: undefined local variable or method `gt' for main:Object
+	from (irb):2
+	from /usr/bin/irb:12:in `<main>'
+irb(main):003:0> exit
+Rebekah:~ rebekahkim$ irb
+irb(main):001:0> s = [5,1,8,0,"df",true, "wer"]
+=> [5, 1, 8, 0, "df", true, "wer"]
+irb(main):002:0> s[3]
+=> 0
+irb(main):003:0> s[0]
+=> 5
+irb(main):004:0> s = {'Moscow': 20000, 'Seoul': 50000000, 'New York': 1000000}
+SyntaxError: (irb):4: syntax error, unexpected ':', expecting =>
+s = {'Moscow': 20000, 'Seoul': 50000000, 'New York': 1000000}
+              ^
+	from /usr/bin/irb:12:in `<main>'
+irb(main):005:0> s = {'Moscow': 20000, 'Seoul': 50000000, 'New York': 1000000}
+SyntaxError: (irb):5: syntax error, unexpected ':', expecting =>
+s = {'Moscow': 20000, 'Seoul': 50000000, 'New York': 1000000}
+              ^
+	from /usr/bin/irb:12:in `<main>'
+irb(main):006:0> s = {moscow: 20000, seoul: 50000000, newyork: 1000000}
+=> {:moscow=>20000, :seoul=>50000000, :newyork=>1000000}
+irb(main):007:0> s
+=> {:moscow=>20000, :seoul=>50000000, :newyork=>1000000}
+irb(main):008:0> s[0]
+=> nil
+irb(main):009:0> s[moscow]
+NameError: undefined local variable or method `moscow' for main:Object
+	from (irb):9
+	from /usr/bin/irb:12:in `<main>'
+irb(main):010:0> s[:moscow]
+=> 20000
+irb(main):011:0> h = {mo$ 20000, seoul$ 500000, ny$ 1000000}
+SyntaxError: (irb):11: `$ ' is not allowed as a global variable name
+(irb):11: syntax error, unexpected end-of-input, expecting =>
+h = {mo$ 20000, seoul$ 500000, ny$ 1000000}
+        ^
+	from /usr/bin/irb:12:in `<main>'
+irb(main):012:0> h = {'mo'=> 20000, 'seoul'=> 500000, 'ny'=> 1000000}
+=> {"mo"=>20000, "seoul"=>500000, "ny"=>1000000}
+irb(main):013:0> h['mo']
+=> 20000
+irb(main):014:0> ex

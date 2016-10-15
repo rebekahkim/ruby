@@ -1,0 +1,35 @@
+Last login: Wed Jun 25 17:40:05 on ttys000
+Rebekah:~ rebekahkim$ cd Dropbox/Programming101/Week1/Rebekah\ K/HW1/
+Rebekah:HW1 rebekahkim$ ls
+Questions.rtf	circle.rb	prime.rb	volume.rb
+arha.rb		odds.rb		trials.rb
+Rebekah:HW1 rebekahkim$ ruby trials.rb 
+Enter number: Enter number: Enter number: Enter number: Enter number: Enter number: Rebekah:HW1 rebekahkim$ ruby trials.rb 
+Enter number: 
+Enter number: Enter number: Enter number: Enter number: Enter number: Rebekah:HW1 rebekahkim$ irb
+irb(main):001:0> letter = ('a'..'z').to_a
+=> ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+irb(main):002:0> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
